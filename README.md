@@ -19,16 +19,16 @@ Clone o repositório, utilizando git clone ou faça o download do repositório.
 Para iniciar o **Backend** do React utilize os comandos:
 ```
 cd backend
-yarn install
-yarn start
+npm install
+npm start
 ```
 
 Para iniciar o **Frontend** do React utilize os comandos:
 
 ```
 cd frontend
-yarn install
-yarn start
+npm install
+npm start
 ```
 
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página ``localhost:3000`` contendo o Projeto.
@@ -39,9 +39,9 @@ Para testar o **Mobile** do React Native, primeiro coloque o endereço do seu se
 
 ```
 # NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado!
-yarn global add install expo-cli
+npm global add install expo-cli
 cd mobile
-yarn install
+npm install
 expo start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página ``localhost:19002``. Conecte seu emulador, ou teste o aplicativo por ``LAN``: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR. (Se não for por lan, tente por tunnel, espere aparecer no Metro Blunder(informações do Expo sobre o app) a mensagem *Tunnel Ready* então clique em tunnel e escaneie o código QR.
